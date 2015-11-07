@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tofu.weather"
     android:versionCode="1"
@@ -6,20 +7,28 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="23" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity 
-            android:name="activity.ChooseAreaActivity" 
-            android:label="@string/app_name">
+        <activity
+            android:name="activity.ChooseAreaActivity"
+            android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"></action>
-                <category android:name="android.intent.category.LAUNCHER"></category>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.LAUNCHER" >
+                </category>
             </intent-filter>
+        </activity>
+        <activity
+            android:name="activity.WeatherActivity"
+            android:label="@string/title_activity_weather" >
         </activity>
     </application>
 
