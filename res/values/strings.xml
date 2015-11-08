@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">weather</string>
+    <string name="app_name">TofuWeather</string>
     <string name="title_activity_weather">WeatherActivity</string>
     <string name="hello_world">Hello world!</string>
 
